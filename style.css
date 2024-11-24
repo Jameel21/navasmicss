@@ -1,0 +1,94 @@
+@font-face{
+    font-family: gillroy;
+    src: url(fonts/Gilroy-BoldItalic.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: EkMuktha;
+    src: url(./fonts/Gilroy-ExtraBold.ttf) format('turetype');
+    font-weight: 600;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home-bannere-screen{
+    height: 830px;
+   overflow: hidden;
+    position: relative;  
+}
+.home-banner-header{
+   display: flex;
+   flex-direction:row ;
+   height: 117;
+   width: 1211px;
+   justify-content: space-between;  
+   top: 22px; 
+   position: relative;
+   left: 115px;
+}
+.home-banner-header-logo{
+    height:117px ;
+    width: 105px;
+    margin-top: 2px;
+    margin-left: 113px;
+}
+.home-banner-header-ul{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  list-style: none;
+  gap: 10px;
+  width: 205px;
+}
+.home-banner-header-button{
+   background-color: #3FB549;
+   padding: 2px;
+   height: 43px;
+   width: 112px;
+   color: white;
+   border-radius: 10px;
+   border: 0;
+   font-size: 15px;
+   line-height: 20px;
+   font-family: EkMuktha;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.home-banner-content{
+    width: 600px ;
+    height: 27px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+}
+ .home-banner-content-heading{
+    font-family: 'EkMuktha',sans-serif;
+    line-height: 51px;
+    font-size: 48px;
+    font-weight: 600;
+} 
+.home-bannere-screen-background{
+    background-image: url(/images/Header\ Banner\ 2.png);
+    position: absolute;
+    height: 830px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    overflow: hidden;
+}
